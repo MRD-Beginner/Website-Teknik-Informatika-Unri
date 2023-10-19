@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+        <link rel="shortcut icon" href="img/LOGO-UR-TERBARU.png">
+    <title>Teknik Informatika Universitas Riau</title>
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- End Bootstrap CSS -->
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="index.css">
+    <!--End Custom Css-->
+    
+    <style>
+        .dropdown-menu li {
+        position: relative;
+        }
+
+        .dropdown-menu .dropdown-submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+        }
+
+        .dropdown-menu .dropdown-submenu-left {
+        right: 100%;
+        left: auto;
+        }
+
+        .dropdown-menu > li:hover > .dropdown-submenu {
+        display: block;
+        }
+    </style>
+
+</head>
+
+<body oncontextmenu="return;">
+    <!--Header Start-->
+    
+    <section id="topbar" class="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 text-white topbar-transparent">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6   text-start">
+          
+            </div>
+            <div class="col-md-6 text-end">
+                <a href="" class="me-4 text-reset">
+                    <span><a class="text-white" href="https://unri.ac.id">Universitas</a></span>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <span><a class="text-white" href="https://ft.unri.ac.id/">Fakultas</a></span>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <span><a class="text-white" href="https://ee.ft.unri.ac.id/">Jurusan</a></span>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <span><a class="text-white" href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf">Unduh Brosur</a></span>
+                </a>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!--Navbar Start-->
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="https://unri.ac.id/">
+                    <img class="me-3" src="img/LOGO-UR-TERBARU.png" width="50px" alt="">
+                    <h2 class="d-flex fw-semibold fs-3 mt-2 mb-2 mb-lg-0 mb-sm-0">Informathics Engineering</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Profil
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                  <a class="dropdown-item" href="profil/sejarah.html">Sejarah</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/visi-misi.html">Visi Misi</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/tujuan.html">Tujuan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/sasaran.html">Sasaran</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/strategi.html">Strategi</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/akreditasi.html">Akreditasi</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/dosen.html">Dosen</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/tenaga-pendidikan.html">Tenaga Pendidikan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/jarkom.html">Lab Jaringan Komputer</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="profil/rpl.html">Lab Rekayasa Perangkat Lunakr</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Akademik
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                  <a class="dropdown-item" href="Akademik/kurikulum.html">Kurikulum</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="Akademik/jadwal-kuliah.html">Jadwal Kuliah</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="Akademik/kalender-akademik.html">Kalender Akademik</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="Akademik/layanan-KP.html">Layanan KP</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              TUK
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                  <a class="dropdown-item" href="TUK/microtik.html">Mikrotik Academy</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Galeri
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                  <a class="dropdown-item" href="Galeri/foto.html">Foto</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="Galeri/video.html">Video</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="Galeri/vtour.html">Virtual Tour</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="Kontak/kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
+                        <li class="nav-item">
+                            <div class="row">
+                                <div class="form-group col-md-9">
+                                  <input id="exampleFormControlInput" type="email" placeholder="Search" class="form-control form-control-underlined">
+                                </div>
+                                <div class="form-group mt-1 col-md-3">
+                                    <button type="button" class="btn btn-primary btn-sm rounded-5">
+                                        <i class="bi bi-search"></i>
+                                      </button>
+                                </div>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img class="img-fluid overflow-hidden"
+                            src="img/1.jpg" style="filter: brightness(0.3);"
+                            class="d-block " alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Teknik Informatika</h5>
+                            <p>Menjadi Program Studi Teknik Informatika Terkemuka Berbasis Riset dan Teknologi yang Bermartabat di Kawasan Asia Tenggara pada Tahun 2035.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="img-fluid overflow-hidden"
+                        src="img/2.jpg" style="filter: brightness(0.3);"
+                            class="d-block " alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Teknik Informatika</h5>
+                            <p>Menjadi Program Studi Teknik Informatika Terkemuka Berbasis Riset dan Teknologi yang Bermartabat di Kawasan Asia Tenggara pada Tahun 2035.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="img-fluid overflow-hidden"
+                        src="img/3.jpg" style="filter: brightness(0.3);"
+                            class="d-block " alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Teknik Informatika</h5>
+                            <p>Menjadi Program Studi Teknik Informatika Terkemuka Berbasis Riset dan Teknologi yang Bermartabat di Kawasan Asia Tenggara pada Tahun 2035.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about mt-5">
+            <div class="container-fluid">
+                <!-- <h2 class="h1-responsive font-weight-bold text-center my-2">About</h2> -->
+                <!--Section description-->
+                <!-- <p class="text-center w-responsive mx-auto mb-1">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p> -->
+                <div class="row  pt-5 pb-5">
+
+                    <div class="col-lg-5 align-items-stretch video-box" data-aos="fade-right" data-aos-duration="8000"
+                        style='background-image: url(img/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-brainstorming-meeting-ideas-mobile-application-software-design-project-modern-office.jpg)'>
+                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                        <div class="content" data-aos="fade-left" data-aos-duration="40000">
+                            <h3 class="fw-bold " data-aos="fade-left" data-aos-duration="80000">Penerimaan Mahasiswa Baru Teknik Informatika 2023</h3>
+                            <p>
+                                Universitas Riau (UNRI) membuka pendaftaran mahasiswa baru program studi Teknik Informatika. Program studi ini menawarkan kurikulum yang mengikuti perkembangan teknologi informasi terbaru. Calon mahasiswa dapat mengembangkan kemampuan dan keterampilan di bidang pemrograman, jaringan komputer, dan keamanan siber. Bergabunglah dengan program studi Teknik Informatika UNRI untuk menjadi ahli teknologi informasi yang handal. Fasilitas yang ditawarkan :
+                            </p>
+                            <div class="ms-5">
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill "></i> <p class="pt-1">Laboratorium Jaringan Komputer</p></li>
+                                    <li><i class="bi bi-check-circle-fill "></i> <p class="pt-1">Laboratorium Rekayasa Perangkat Lunak</p></li>
+                                    <li><i class="bi bi-check-circle-fill "></i> <p class="pt-1">Laboratorium Komputasi Cerdas Visual</p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <section class="counters" data-aos="fade-up" data-aos-duration="8000">
+			<div class="container">
+				<div>
+					<i class="bi bi-mortarboard-fill fs-2"></i>
+					<div class="counter" data-target="720">0</div>
+					<h3>Mahasiswa</h3>
+				</div>
+				<div>
+					<i class="bi bi-bank2 fs-2"></i>
+					<div class="counter" data-target="3600">0</div>
+					<h3>Alumni</h3>
+				</div>
+				<div>
+					<i class="bi bi-person-circle fs-2"></i>
+					<div class="counter" data-target="1080">0</div>
+					<h3>Dosen</h3>
+				</div>
+				<div>
+					<i class="bi bi-people-fill fs-2"></i>
+					<div class="counter" data-target="720">0</div>
+					<h3>Staff</h3>
+				</div>
+			</div>
+		</section>
+
+        <section data-aos="fade" data-aos-duration="2000">
+            <div class="container course pb-5 pt-5">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Berita</h2>
+                <!--Section description-->
+                <!-- <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil id voluptatibus necessitatibus! Molestiae aspernatur mollitia odit ea ullam quisquam provident, a, et autem porro, nemo obcaecati iusto numquam quae? Unde.</p> -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/photo_2022-08-05_13-32-09.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">FGA DTS 2022</h5>
+                                <p class="card-text desc">Program Studi Teknik Informatika Universitas Riau kembali bekerja sama dengan Kementerian Komunikasi dan Informatika RI menyelenggarakan Program Fresh Graduate Academy Digital Talent Scholarship (FGA DTS) Tahun 2022.</p>
+                                <a href="berita/Berita_FGA_DTS.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple text-center" data-mdb-ripple-color="light">
+                                <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/Serah-terima-wakil-dekan-FT.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dr. Azriyenni, ST., M.Eng Wakil Dekan bidang Kemahasiswaan, Kerjasama dan Alumni Fakultas Teknik</h5>
+                                <p class="card-text desc">Dr. Azriyenni, ST., M.Eng dilantik menjadi Wakil Dekan III bidang Kemahasiswaan, Kerjasama dan Alumni Fakultas Teknik Universitas </p>
+                                <a href="berita/Berita_Kemahasiswaan.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/Prof_AZ.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Prof Azriyenni Guru Besar Elektro Pertama di Riau</h5>
+                                <p class="card-text desc">Prof. Dr. Azriyenni, ST, M.Eng merupakan Guru Besar pertama bidang Teknik Elektro di Riau. Azriyenni dikukuhkan sebagai Guru Besar dalam Bidang Ilmu Transmisi dan Distribusi Tenaga Listrik </p>
+                                <a href="berita/Berita_Prof_Azriyeni_Guru_Besar.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="for-mobile d-lg-none" >
+            <div class="container">
+                <h2 class="h2-responsive font-weight-bold text-center my-4">Prospek Kerja</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+                <!-- Gallery -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mt-3 col-lg-4">
+                            <img src="https://source.unsplash.com/collection/190726/1500x900" class="img-fluid" alt="image">
+                        </div>
+                        
+        
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+        </section>
+
+        <section class="for-desktop d-lg-inline mb-5" data-aos="fade-up" data-aos-duration="10000">
+            <div class="container">
+                <h2 class="h1-responsive font-weight-bold text-center my-1">Prospek Kerja</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Lulusan Teknik Informatika</p>
+                <div class="kodfun-galeri text-center">
+                    <div style="background-image: url('https://cdn.pixabay.com/photo/2018/04/22/22/57/hacker-3342696_960_720.jpg');">
+                        <div class="caption-top text-light" style="z-index: -1; display: grid; place-items: center; margin-top: 50%; font-weight: 900;">
+                            <p class="job-title">Cyber Security</p>
+                        </div>
+                    </div>
+                    <div style="background-image: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg');">
+                        <div class="caption-top text-light" style="z-index: -1; display: grid; place-items: center; margin-top: 50%; font-weight: 900;">
+                            <p class="job-title">Software Engineer</p>
+                        </div>
+                    </div>
+                    <div style="background-image: url('https://img.freepik.com/free-photo/male-asian-caucasian-engineer-professional-having-discussion-standing-consult-machine-factory-two-expert-coworker-brainstorm-explaining-solves-process-cnc-operate-machine_609648-683.jpg?w=1060&t=st=1681748671~exp=1681749271~hmac=e1a046aeb46f381e92c6102e5b2416f6f6c51962113e87f5af914dc4dbe68666://picsum.photos/id/3/1000/500');">
+                        <div class="caption-top text-light" style="z-index: -1; display: grid; place-items: center; margin-top: 50%; font-weight: 900;">
+                            <p class="job-title">Machine Learning Engineer</p>
+                        </div>
+                    </div>
+                    <div style="background-image: url('https://img.freepik.com/free-photo/close-up-hand-holding-futuristic-screen_23-2149126945.jpg?w=1380&t=st=1681748487~exp=1681749087~hmac=9e0370237c92aa63b03bf2c8f31ddf923d9df94b823ebbdd687a73a6b0a44b48');">
+                        <div class="caption-top text-light" style="z-index: -1; display: grid; place-items: center; margin-top: 50%; font-weight: 900;">
+                            <p class="job-title">Data Scientist</p>
+                        </div>
+                    </div>
+                    <div style="background-image: url('https://img.freepik.com/free-photo/team-coworkers-comparing-source-codes-running-laptop-screen-computer-monitor-it-development-office-software-developers-collaborating-data-coding-group-project-while-sitting-desk_482257-41846.jpg?w=1380&t=st=1681748988~exp=1681749588~hmac=f106bd8c569c6ae78a6521a4fbc9a2d0c04a0bcf7222fd7906a8dec51f587988');">
+                        <div class="caption-top text-light" style="z-index: -1; display: grid; place-items: center; margin-top: 50%; font-weight: 900;">
+                            <p class="job-title">Website Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- <section class="mt-5 mb-4">
+            <div class="container mb-5">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
+                to contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary"
+                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d904726.6131739549!2d85.24565535!3d27.65273865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1654970604602!5m2!1sen!2snp"
+                        width="600" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        </section> -->
+
+        <section>
+            <div class="container box-mitra">
+                <h2 class="h2-responsive font-weight-bold text-center">Mitra</h2>
+                <div class="flex-column mitra text-center">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/kominfo.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/logo cisco.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/logo-bps-1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/logo-esri-1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/logo-mikrotik.jpg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/logo-redhat-1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/microsoft.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-lg-3 mt-sm-3">
+                            <img src="img/Mitra/Oracle-Logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start py-3 text-white" style="background-color: #0f479a;">
+          
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 justify-content-center">
+                            <!-- Content -->
+                            
+                            <img src="img/akreditasi-ti-b.png" width="200px" alt="" srcset="">
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                S1 Teknik Informatika
+                            </h6>
+                            <p>
+                                <a href="Kategori/event.html" class="text-reset">Event</a>
+                            </p>
+                            <p>
+                                <a href="Kategori/prestasi.html" class="text-reset">Prestasi Mahasiswa</a>
+                            </p>
+                            <p>
+                                <a href="https://kampusmerdeka.kemdikbud.go.id/" class="text-reset">Merdeka Belajar</a>
+                            </p>
+                            <p>
+                                <a href="Kategori/berita.html" class="text-reset">Berita</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 border-bottom-2 border-black">
+                                Link Terkait
+                            </h6>
+                            <p>
+                                <a href="https://kemahasiswaan.unri.ac.id/news/category/Beasiswa" class="text-reset">Beasiswa</a>
+                            </p>
+                            <p>
+                                <a href="https://iconeei.id/" class="text-reset">Konferensi International</a>
+                            </p>
+                            <p>
+                                <a href="http://tracer.unri.ac.id/dashboard/tracer" class="text-reset">Tracer Study</a>
+                            </p>
+                            <p>
+                                <a href="https://sitei.ft.unri.ac.id/" class="text-reset">SITEI/(Akademik)</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Kontak
+                            </h6>
+                            <p><i class="bi bi-geo"></i> JL Binawidya, tampan, pekanbaru</p>
+                            <p>
+                                <i class="bi bi-envelope me-3"></i>
+                                informatika@eng.unri.ac.id
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright By 
+                <a class="text-reset fw-bold" href="www.palingtekno.my.id">palingtekno.my.id</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script> -->
+
+        <!-- js Animasi -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+</body>
+
+</html>
